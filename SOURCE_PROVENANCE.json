@@ -100,5 +100,13 @@
     "current_slug": "louis-xiii-cipher-letter-june-1635",
     "date_utc": "2026-10-06",
     "scope": "Document labels, description and navigation only. Repository identity/history and scientific identifiers remain preserved."
+  },
+  "community_workflow_update": {
+    "date_utc": "2026-10-06",
+    "previous_commit": "33e1a25591038acd4205e6e1523a7de9cb93a643",
+    "scope": "Research participation links and workflow entry point only; retained scientific inputs and claim status unchanged. adapted_files hashes above record the initial publication snapshot.",
+    "navigation_file": "README.md",
+    "previous_sha256": "9ffafc486f325179d34d86ebcb1ac90fe10797f3406fca9ddec2f82f8d135aaa",
+    "current_sha256": "6ec66a108e37bb2cf6411c09f337a5d63d7f7f95056a5506731d0a66b5f0a2fb"
   }
 }
