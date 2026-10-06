@@ -1,0 +1,93 @@
+{
+  "intended_repository_path": "verification/experiments/",
+  "prepared_utc": "2026-10-06",
+  "scope": "Scoped bounded verification for louis-xiii-june-1635; not a complete original research archive.",
+  "publication_authority": "Curated for publication by the repository owner.",
+  "licensing_note": "No repository licence is selected or guessed here. New project code/text may be published under the owner's chosen repository terms. No third-party source payload has been silently relicensed. Facts, hashes and numerical project observations are separated from excluded source expression.",
+  "files": [
+    {
+      "path": "louis-xiii-june-1635/README.md",
+      "sha256": "4403dcb1316bbd4394df449d78f5d07c5cd9cdd220b4108857bf683771172e4f",
+      "bytes": 1440,
+      "publication_status": "ready_to_publish",
+      "external_licence_grant_asserted": false,
+      "origin": "New explanatory text or publication-scope metadata composed for this release.",
+      "rights_basis": "New project text; links and bibliographic facts credit the external sources without reproducing their substantive material.",
+      "source_credit_urls": [
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f127.item",
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f128.item",
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f129.item",
+        "https://dbourdeau.github.io/cyphersolver/rohan1636.html"
+      ],
+      "source_sha256": "4403dcb1316bbd4394df449d78f5d07c5cd9cdd220b4108857bf683771172e4f"
+    },
+    {
+      "path": "louis-xiii-june-1635/partial_predictions.json",
+      "sha256": "9e51709a406c3f6db92d6f5db7b70af8d7f6cc1c16eacd2c66925575db41bdb5",
+      "bytes": 4160,
+      "publication_status": "ready_to_publish",
+      "external_licence_grant_asserted": false,
+      "origin": "Project factual token inventories, partial candidate mappings, frozen dates and derived predictions, extracted without source-image metadata, absolute paths or editorial comparator text.",
+      "rights_basis": "Selected factual/project analytical material; no licence to cited facsimiles, third-party code, modern prose or excluded datasets is claimed.",
+      "sources": [
+        {
+          "archive_name": "Louis_XIII_reproducible_test_package.zip",
+          "member": "Louis_XIII_reproducible_test/heldout_frozen.json",
+          "sha256": "04aba064da756b3d3a2d4d1a2d6fa3f284f0ed8ffa0f7b315c2c40404cbac546"
+        },
+        {
+          "archive_name": "Louis_XIII_reproducible_test_package.zip",
+          "member": "Louis_XIII_reproducible_test/training_key_frozen.json",
+          "sha256": "0a349c94eead1496746698d3d06abe7256aa1af6a8f06d63e7744ca9247afef2"
+        },
+        {
+          "archive_name": "Louis_XIII_reproducible_test_package.zip",
+          "member": "Louis_XIII_reproducible_test/prediction_frozen.json",
+          "sha256": "fb6c25367f0e84a6c9a9a73a49f5b6ead87348c15e1588b5e38f495fd015777d"
+        },
+        {
+          "archive_name": "Louis_XIII_reproducible_test_package.zip",
+          "member": "Louis_XIII_reproducible_test/heldout_v2_frozen.json",
+          "sha256": "a47b84241a9c3e0af9db6069804eadbc9ae785aea7b7936fe8d49ec155728648"
+        },
+        {
+          "archive_name": "Louis_XIII_reproducible_test_package.zip",
+          "member": "Louis_XIII_reproducible_test/training_key_v2_frozen.json",
+          "sha256": "585403121a4a29858f5f58aca8077821ea7bbb633f6fce33199eb8e9a96d8a1b"
+        },
+        {
+          "archive_name": "Louis_XIII_reproducible_test_package.zip",
+          "member": "Louis_XIII_reproducible_test/prediction_v2_frozen.json",
+          "sha256": "d094350e4bb93049f78478f72b8f57e856662bc424c065eed250532690ccb90d"
+        },
+        {
+          "archive_name": "Louis_XIII_reproducible_test_package.zip",
+          "member": "Louis_XIII_reproducible_test/ERRATUM.txt",
+          "sha256": "ace771d4a97cb4ebf04fe1432d608ee39258840a21fd6ed9736024a83aa25a6d"
+        }
+      ],
+      "source_credit_urls": [
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f127.item",
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f128.item",
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f129.item",
+        "https://dbourdeau.github.io/cyphersolver/rohan1636.html"
+      ],
+      "source_sha256": "9e51709a406c3f6db92d6f5db7b70af8d7f6cc1c16eacd2c66925575db41bdb5"
+    }
+  ],
+  "holds_manifest": "EXCLUSIONS.json",
+  "verification_command": "python verify.py",
+  "verification_output": "verification_results.json",
+  "restrictions": [
+    "Do not describe the complete six historical studies as fully rerunnable from this subset.",
+    "Do not claim score/search replay for Dorabella or Petraeus, historical-search replay for Caprile, or source-pixel verification for any topic.",
+    "The only complete finite historical dependency calculation repeated here is the latest Châtillon ablation/width study; Debosnys recomputes two likelihoods from aggregate counts.",
+    "The 60-token Caprile fixture remains sealed."
+  ],
+  "adapted_checker": {
+    "path": "verify.py",
+    "source_sha256": "e0d0cd5653d8e24211b696ebdfc1dc6d4819a6ef49ca0817d40ad4990ef01024",
+    "sha256": "76289d08fdc47208202c1685a607788fbe60b1977f2a7958c06402f94a0e7b02",
+    "transform": "Required original functions only; scope dispatch restricted to this topic."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "louis-xiii-june-1635": {
+    "status": "passed",
+    "partial_coverage": [
+      [
+        6,
+        18
+      ],
+      [
+        10,
+        21
+      ]
+    ],
+    "scope": "Frozen coverage, not plaintext accuracy or global blindness"
+  }
+}

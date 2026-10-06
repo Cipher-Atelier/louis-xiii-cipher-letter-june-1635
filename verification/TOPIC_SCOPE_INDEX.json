@@ -1,0 +1,26 @@
+{
+  "basis_commit": "24a7ae8f3e88664f3f1b472082f80259be641f98",
+  "note": "One topic only. Migration adds a public subset, not a complete original evidence archive.",
+  "topics": [
+    {
+      "topic": "louis-xiii-june-1635",
+      "category": "conditional_reconstruction",
+      "published_page": "https://github.com/Cipher-Atelier/louis-xiii-june-1635/blob/main/louis-xiii-june-1635/README.md",
+      "claim_scope": "969 physical groups and partial mappings; no continuous validated decipherment.",
+      "source_links": [
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f126.item",
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f127.item",
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f128.item",
+        "https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f129.item",
+        "https://calames.abes.fr/pub/ms/BSGC11569",
+        "https://dbourdeau.github.io/cyphersolver/rohan1636.html",
+        "https://cryptiana.web.fc2.com/code/louisxiii_saintchamond.png",
+        "https://cryptiana.web.fc2.com/code/louisxiii_davaux.png"
+      ],
+      "minimum_verification_scope": "Frozen physical inventory, source boxes, partial key and prediction test scripts, original 6/18 and 10/21 records, conflicts and post-source numeral correction, counterpart provenance; separate June and August documents.",
+      "public_release_gap": "Conditional correspondence and exposure prevent counting mappings as solved text. Later 47/721 claims require their own exact artifact check.",
+      "verification_entry": "experiments/README.md",
+      "original_published_page": "https://github.com/cayde-6/historical-cipher-research/blob/24a7ae8f3e88664f3f1b472082f80259be641f98/louis-xiii-june-1635/README.md"
+    }
+  ]
+}

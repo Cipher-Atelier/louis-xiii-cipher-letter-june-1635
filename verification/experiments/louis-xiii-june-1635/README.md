@@ -1,0 +1,7 @@
+# Louis XIII: two frozen partial predictions
+
+The compact data retain factual token IDs, partial assignments, expected per-position substitutions and original freeze times. No facsimile, modern editorial prose or continuous historical cleartext is copied. The source is Louis XIII to Châtillon and Brézé, 30 June 1635, BnF Français 3758, item 100. Source credit: Bibliothèque nationale de France, [Gallica views 126–130](https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f126.item). Earlier printed context appears in Antoine Aubery, 1660, volume I, pp. 494–496; Daniel Bourdeau's [Rohan correspondence page](https://dbourdeau.github.io/cyphersolver/rohan1636.html) supplied modern research context. No first-discovery claim follows.
+
+The new verifier reproduces 6/18 and 10/21 mapped positions. These are coverage counts, not accuracy. Full spreads had already been seen before selecting the bounded test passages. Comparator text came after the local freezes; that does not make the manuscript globally unseen. The second test retains a disagreement in a plausible passer-en alignment.
+
+An earlier rationale incorrectly excluded u-o after historical u/v normalization: Vous becomes uous. The error was acknowledged without changing frozen predictions. The page-end 91 is a duplicated catchword; count the physical pair once in a continuous transcription. No full key, verified sentence or reliable complete translation is claimed.

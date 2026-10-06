@@ -1,0 +1,98 @@
+{
+  "source_repository": "https://github.com/cayde-6/historical-cipher-research",
+  "source_baseline_commit": "24a7ae8f3e88664f3f1b472082f80259be641f98",
+  "approved_source_archive_sha256": "82369eb38788028640501edfe272cd91d8ce6158977465f78333ab195d7ce59b",
+  "publication_date_utc": "2026-10-06",
+  "history": "Clean publication commit; original Git history retained without rewriting or force-push.",
+  "retained_inputs": [
+    {
+      "source_path": "louis-xiii-june-1635/README.md",
+      "destination_path": "louis-xiii-june-1635/README.md",
+      "source_sha256": "0dca2ef2d8ae2ed8e967b470124068f710595249aecf1df32732a5007dc09279",
+      "destination_sha256": "341e8478f7141385771b572bc2360908ee22dd357eaa95785c58f3a6e405053d",
+      "transform": "Publication status or cross-repository navigation updated; scientific values and research dates unchanged"
+    },
+    {
+      "source_path": "verification/experiments/louis-xiii-june-1635/README.md",
+      "destination_path": "verification/experiments/louis-xiii-june-1635/README.md",
+      "source_sha256": "4403dcb1316bbd4394df449d78f5d07c5cd9cdd220b4108857bf683771172e4f",
+      "destination_sha256": "4403dcb1316bbd4394df449d78f5d07c5cd9cdd220b4108857bf683771172e4f",
+      "transform": "verbatim retained source"
+    },
+    {
+      "source_path": "verification/experiments/louis-xiii-june-1635/partial_predictions.json",
+      "destination_path": "verification/experiments/louis-xiii-june-1635/partial_predictions.json",
+      "source_sha256": "9e51709a406c3f6db92d6f5db7b70af8d7f6cc1c16eacd2c66925575db41bdb5",
+      "destination_sha256": "9e51709a406c3f6db92d6f5db7b70af8d7f6cc1c16eacd2c66925575db41bdb5",
+      "transform": "verbatim retained source"
+    }
+  ],
+  "adapted_files": [
+    {
+      "path": ".gitignore",
+      "sha256": "60c9bdd905fcf45ac485c680d32e9773962cf061b6f041dcddd033911558a672",
+      "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "f9e7e528924dc03f8f665095ddb0a2fde3e9570b2eee99a2f0b07d89e2600924",
+      "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
+    },
+    {
+      "path": "README.md",
+      "sha256": "aa253f1094107a725ecf9773a5ece6515865211f71aaf21e00bf5c65d59dd5be",
+      "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "sha256": "3ecddd051c05e00be17c849c2d29d11fa89cf7d3d4fa66d3068cf08df5218a78",
+      "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "sha256": "df825fae32a615fcec20f76bcafe87fcfd1af76c91bdc81d5fe97f01bbec0e23",
+      "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
+    },
+    {
+      "path": "verification/README.md",
+      "sha256": "de8490f8fffc911b3b98565b6266782713b3b79ce3a1f675e0b993bac783aaa4",
+      "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
+    },
+    {
+      "path": "verification/TOPIC_SCOPE_INDEX.json",
+      "sha256": "207219894a5652a121461641fd839ed92f44872fdcce966a336b0c1f3ec3f613",
+      "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
+    },
+    {
+      "path": "verification/check_all.py",
+      "sha256": "81471579c4e7e84c572a6bc8c920aa1b0a28852cb101def766d313053a55399d",
+      "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
+    },
+    {
+      "path": "verification/experiments/EXCLUSIONS.json",
+      "sha256": "56fc67434d2a83cf13697d528cb2fa2cbe1c937a77d7f02fd57aae72643c50c0",
+      "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
+    },
+    {
+      "path": "verification/experiments/PROVENANCE.json",
+      "sha256": "bbf5dc6ae8a3e3d621678c7d64fcea0f63169dd1ddcf2a954b0270c16d89c8c4",
+      "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
+    },
+    {
+      "path": "verification/experiments/README.md",
+      "sha256": "a63461f1336dc6e9d2e77c04d300258a9df84d2ea1e37142d8365fef111e6bf2",
+      "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
+    },
+    {
+      "path": "verification/experiments/verification_results.json",
+      "sha256": "3591b9f08803e5f4a56e3458b9502eca20734974ac7863b74e38488359c35a2f",
+      "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
+    },
+    {
+      "path": "verification/experiments/verify.py",
+      "sha256": "76289d08fdc47208202c1685a607788fbe60b1977f2a7958c06402f94a0e7b02",
+      "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
+    }
+  ],
+  "rights": "Source-specific credits and restrictions apply; no new blanket licence."
+}
