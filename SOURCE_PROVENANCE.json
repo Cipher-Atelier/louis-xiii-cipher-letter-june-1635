@@ -9,8 +9,8 @@
       "source_path": "louis-xiii-june-1635/README.md",
       "destination_path": "louis-xiii-june-1635/README.md",
       "source_sha256": "0dca2ef2d8ae2ed8e967b470124068f710595249aecf1df32732a5007dc09279",
-      "destination_sha256": "341e8478f7141385771b572bc2360908ee22dd357eaa95785c58f3a6e405053d",
-      "transform": "Publication status or cross-repository navigation updated; scientific values and research dates unchanged"
+      "destination_sha256": "15ab11b84fe5efeb57f0a3204e569bc802afad7523b79e98396cd833ad63a806",
+      "transform": "Publication status or cross-repository navigation updated; scientific values and research dates unchanged; cross-repository links updated after descriptive rename"
     },
     {
       "source_path": "verification/experiments/louis-xiii-june-1635/README.md",
@@ -35,22 +35,22 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "f9e7e528924dc03f8f665095ddb0a2fde3e9570b2eee99a2f0b07d89e2600924",
+      "sha256": "8505d6c9564a4cdc70f3ac04218e412a919784bbfc0eb1866607c2ae1f37d4fe",
       "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
     },
     {
       "path": "README.md",
-      "sha256": "aa253f1094107a725ecf9773a5ece6515865211f71aaf21e00bf5c65d59dd5be",
+      "sha256": "9ffafc486f325179d34d86ebcb1ac90fe10797f3406fca9ddec2f82f8d135aaa",
       "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
     },
     {
       "path": "SHA256SUMS.txt",
-      "sha256": "3ecddd051c05e00be17c849c2d29d11fa89cf7d3d4fa66d3068cf08df5218a78",
+      "sha256": "0a86289afeae167cbfd2305e14fbdbff58293fea8ae37ab946554a6f46f377d3",
       "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
     },
     {
       "path": "SOURCE_PROVENANCE.json",
-      "sha256": "df825fae32a615fcec20f76bcafe87fcfd1af76c91bdc81d5fe97f01bbec0e23",
+      "sha256": "1bd25bfc41f2666f366d06203839e56f30db9cfab0e0ab067872d0360be3fd37",
       "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
     },
     {
@@ -60,7 +60,7 @@
     },
     {
       "path": "verification/TOPIC_SCOPE_INDEX.json",
-      "sha256": "207219894a5652a121461641fd839ed92f44872fdcce966a336b0c1f3ec3f613",
+      "sha256": "4ba4390c0d7f34128a5c3fe2883fc83d0bd58c483446df4b060f594e6d76abe6",
       "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
     },
     {
@@ -94,5 +94,11 @@
       "transform": "New scoped navigation, metadata or replay dispatch; original scientific inputs remain separately inventoried."
     }
   ],
-  "rights": "Source-specific credits and restrictions apply; no new blanket licence."
+  "rights": "Source-specific credits and restrictions apply; no new blanket licence.",
+  "repository_rename": {
+    "previous_slug": "louis-xiii-june-1635",
+    "current_slug": "louis-xiii-cipher-letter-june-1635",
+    "date_utc": "2026-10-06",
+    "scope": "Document labels, description and navigation only. Repository identity/history and scientific identifiers remain preserved."
+  }
 }

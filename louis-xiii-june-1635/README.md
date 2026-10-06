@@ -6,7 +6,7 @@ Research status as of 5 October 2026: **partial key reconstruction; no continuou
 
 Determine how much of Louis XIII's letter to the marshals Châtillon and Brézé can be read from a fixed partial key, and identify why apparently related clear text does not yield a consistent complete key.
 
-The source is BnF Français 3758, item 100, dated at Fontainebleau on the last day of June 1635. The inspected sequence is [Gallica views 126–130](https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f126.item). This page concerns the June letter. The [Châtillon-to-Servien letter of 3 August](https://github.com/Cipher-Atelier/chatillon-1635/blob/main/chatillon-1635/README.md) is a separate investigation, with no demonstrated right to transfer the full key between them.
+The source is BnF Français 3758, item 100, dated at Fontainebleau on the last day of June 1635. The inspected sequence is [Gallica views 126–130](https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f126.item). This page concerns the June letter. The [Châtillon-to-Servien letter of 3 August](https://github.com/Cipher-Atelier/chatillon-to-servien-cipher-letter-1635/blob/main/chatillon-1635/README.md) is a separate investigation, with no demonstrated right to transfer the full key between them.
 
 ## Corpus and partial results
 

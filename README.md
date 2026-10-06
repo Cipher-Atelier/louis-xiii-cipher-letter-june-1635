@@ -1,4 +1,4 @@
-# louis-xiii-june-1635
+# Louis XIII’s cipher letter to Châtillon and Brézé (30 June 1635)
 
 Conditional local partial mappings. Public replay checks frozen 6/18 and 10/21 coverage only; no continuous validated decipherment or complete 969-group replay.
 
