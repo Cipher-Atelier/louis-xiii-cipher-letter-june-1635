@@ -2,7 +2,7 @@
 
 Conditional local partial mappings. Public replay checks frozen 6/18 and 10/21 coverage only; no continuous validated decipherment or complete 969-group replay.
 
-Read the [research account](louis-xiii-june-1635/README.md), [topic navigation](louis-xiii-june-1635/README.md), [verification guide](verification/README.md), and [sources and limits](verification/TOPIC_SCOPE_INDEX.json).
+Read the [research account](louis-xiii-june-1635/README.md), [verification guide](verification/README.md), and [sources and limits](verification/TOPIC_SCOPE_INDEX.json).
 
 Run the bounded offline checks with Python 3.10 or later from this repository root:
 
