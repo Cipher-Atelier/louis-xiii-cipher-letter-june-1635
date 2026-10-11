@@ -2,17 +2,20 @@
 
 A royal letter from Louis XIII to Châtillon and Brézé, dated 30 June 1635. Its cipher mixes graphical signs and numbers; a group can stand for a letter or a longer unit.
 
-## What has been found?
+## Current result — 11 October 2026
 
-This is an unfinished key-reconstruction investigation. Some local assignments and words are plausible, but there is no reliable continuous decipherment or full translation. The public checker tests two saved short-passage predictions.
+The public package contains two small candidate-mapping trials, with 6/18 and 10/21 supplied values. It does not provide a continuous decoded letter. In trial 1 the first six predictions are `[null, null, "s", null, null, "i"]`: `null` means no prediction from the saved table, not an empty plaintext letter.
 
-A small example from the recorded result:
+| Evidence layer | Open this |
+| --- | --- |
+| Original | [Letter beginning](https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f126.item) · [trial 1 page](https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f127.item) · [trial 2 page](https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f128.item) |
+| Recorded tokens / candidate mapping / literal predictions | [Separate tokens, mapping and expected_predictions fields](verification/experiments/louis-xiii-june-1635/partial_predictions.json) |
+| Interpretation of the trials | [Trial explanation](verification/experiments/louis-xiii-june-1635/README.md) |
+| Broader research narrative | [Investigation](louis-xiii-june-1635/README.md) · [public exclusions](verification/experiments/EXCLUSIONS.json) |
 
-```text
-G_delta → s; G_hash → i
-```
+`G_delta → s` and `G_hash → i` reproduce entries in the candidate table. [Check one trial by hand](READING_GUIDE.md#check-one-example-by-hand). Published file fingerprints and retained assignments are checked; original frozen-record hash fields remain metadata and are not recomputed from the original records.
 
-These are candidate assignments in a saved test table. The labels name cipher shapes; they are not words recovered from the letter.
+**Unresolved / missing:** no complete source transcription, contemporary key or full translation is included. The broader 969-group inventory and narrative 27/599 or 47/721 claims are outside this checker’s scope, as are the unsuccessful models in the narrative. Prior manuscript viewing limits blindness. June and August investigations remain separate; page URLs do not supply local row or box locators.
 
 ## Start reading
 
