@@ -6,7 +6,7 @@
 
 The supported command first checks the published file fingerprints in `SHA256SUMS.txt`, then repeats this investigation’s saved calculation. A fingerprint (SHA-256) identifies exact file bytes; it is not a scientific correctness score.
 
-The replay checks recorded tokens, frozen input/key hashes and partial substitutions. It does not replay all 969 groups or validate the broader 47-entry/721-position research table.
+The wrapper checks published file fingerprints, and the replay checks retained token-to-candidate assignments. Original frozen input/key hash fields are metadata; the verifier does not recompute those hashes from the original records. The package checksum inventory verifies the published JSON bytes. It does not replay all 969 groups or validate the broader 47-entry/721-position research table.
 
 It uses Python’s standard library, makes no network requests, and needs no downloaded scans or extra packages for this default check. It does not fit a new key or edit the research evidence.
 
