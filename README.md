@@ -2,7 +2,9 @@
 
 A royal letter from Louis XIII to Châtillon and Brézé, dated 30 June 1635. Its cipher mixes graphical signs and numbers; a group can stand for a letter or a longer unit.
 
-## Current result — 11 October 2026
+[Cipher Atelier](https://github.com/Cipher-Atelier) · [Research index](https://github.com/Cipher-Atelier/research-index) · [Reading guide](READING_GUIDE.md) · [Verification](verification/README.md)
+
+## Current status — 11 October 2026
 
 The public package contains two small candidate-mapping trials, with 6/18 and 10/21 supplied values. It does not provide a continuous decoded letter. In trial 1 the first six predictions are `[null, null, "s", null, null, "i"]`: `null` means no prediction from the saved table, not an empty plaintext letter.
 
@@ -17,13 +19,13 @@ The public package contains two small candidate-mapping trials, with 6/18 and 10
 
 **Unresolved / missing:** no complete source transcription, contemporary key or full translation is included. The broader 969-group inventory and narrative 27/599 or 47/721 claims are outside this checker’s scope, as are the unsuccessful models in the narrative. Prior manuscript viewing limits blindness. June and August investigations remain separate; page URLs do not supply local row or box locators.
 
-## Start reading
+## Start here
 
 1. [Read the plain-language guide](READING_GUIDE.md): the document, result, file meanings and one worked check. No programming is required.
 2. Open [Two saved partial-prediction trials](verification/experiments/louis-xiii-june-1635/partial_predictions.json) to inspect the saved text or test result itself.
 3. Read the [research account](louis-xiii-june-1635/README.md) for historical context, methods, earlier work and unresolved questions.
 
-## How can I check it?
+## Reproduce the checks
 
 Follow the worked example in [the reading guide](READING_GUIDE.md#check-one-example-by-hand). It connects a source record, a key or model assumption, and the saved output. For an independent source check, use the [original-source entry](https://gallica.bnf.fr/ark:/12148/btv1b9058223v/f126.item); images are linked, not redistributed here.
 
@@ -35,16 +37,20 @@ python3 verification/check_all.py
 
 A successful run means the published files and declared calculation reproduce. It does not establish that every source sign or historical interpretation is correct.
 
-## Precise research scope
+The [Evidence checks workflow](.github/workflows/verify.yml) runs this offline baseline on Python 3.10 and 3.13, without installing dependencies, and checks changed-file whitespace.
+
+## Research scope and limitations
 
 Conditional local partial mappings. Public replay checks frozen 6/18 and 10/21 coverage only; no continuous validated decipherment or complete 969-group replay.
 
-This is part of [Cipher-Atelier](https://github.com/Cipher-Atelier), founded by [Maxim Egorov](https://github.com/cayde-6). Explore the [research index](https://github.com/Cipher-Atelier/research-index), [contribution guide](https://github.com/Cipher-Atelier/.github/blob/main/CONTRIBUTING.md), and [step-by-step research workflow](https://github.com/Cipher-Atelier/research-index/blob/main/START_HERE.md).
+## Contribute
+
+This is part of [Cipher Atelier](https://github.com/Cipher-Atelier), founded by [Maxim Egorov](https://github.com/cayde-6). Explore the [research index](https://github.com/Cipher-Atelier/research-index), [contribution guide](https://github.com/Cipher-Atelier/.github/blob/main/CONTRIBUTING.md), and [step-by-step research workflow](https://github.com/Cipher-Atelier/research-index/blob/main/START_HERE.md).
+
+Read the current result and source limitations, then coordinate a bounded task in an existing issue or use [Work on existing research](https://github.com/Cipher-Atelier/louis-xiii-cipher-letter-june-1635/issues/new?template=research.yml). Fork the repository and submit a focused pull request with your evidence and checks. Independent replication and constructive alternative readings are welcome. See [Start here](https://github.com/Cipher-Atelier/research-index/blob/main/START_HERE.md) for the shared workflow.
+
+## Sources and rights
 
 Source credit and item-specific restrictions remain in the research records. Scans, crops, restricted materials and private correspondence are excluded. No new blanket licence is asserted. AI-assisted work requires evidence checking and does not constitute external human expert review.
 
 [Publication provenance](SOURCE_PROVENANCE.json) records the source commit, retained file hashes and deliberate code/navigation adaptations. The original repository history remains intact.
-
-## Contribute to this investigation
-
-Read the current result and source limitations, then coordinate a bounded task in an existing issue or use [Work on existing research](https://github.com/Cipher-Atelier/louis-xiii-cipher-letter-june-1635/issues/new?template=research.yml). Fork the repository and submit a focused pull request with your evidence and checks. Independent replication and constructive alternative readings are welcome. See [Start here](https://github.com/Cipher-Atelier/research-index/blob/main/START_HERE.md) for the shared workflow.
